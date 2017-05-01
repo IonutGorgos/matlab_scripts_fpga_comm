@@ -1,1 +1,3 @@
-"# matlab_scripts_fpga_comm" 
+### Matlab Scripts for CPA
+
+TODO: extract ciphertext
