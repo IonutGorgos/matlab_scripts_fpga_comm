@@ -27,10 +27,10 @@ rcon = rcon_gen (1);
 % Define an arbitrary 16-byte cipher key in hexadecimal (string) representation
 % The following two specific keys are used as examples 
 % in the AES-Specification (draft)
-key_hex = {'00' '01' '02' '03' '04' '05' '06' '07' ...
-           '08' '09' '0a' '0b' '0c' '0d' '0e' '0f'};
-%key_hex = {'2b' '7e' '15' '16' '28' 'ae' 'd2' 'a6' ...
-%           'ab' 'f7' '15' '88' '09' 'cf' '4f' '3c'};
+% key_hex = {'00' '01' '02' '03' '04' '05' '06' '07' ...
+%            '08' '09' '0a' '0b' '0c' '0d' '0e' '0f'};
+key_hex = {'36' '3A' 'AD' 'eb' 'ea' '2d' '56' 'e8' ...
+          '48' 'ae' '9d' '46' '35' 'd8' 'e4' '8'};
 
 % Convert the cipher key from hexadecimal (string) to decimal representation
 key = hex2dec(key_hex);
